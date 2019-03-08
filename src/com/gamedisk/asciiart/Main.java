@@ -2,7 +2,6 @@ package com.gamedisk.asciiart;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -77,7 +76,7 @@ public class Main extends JFrame {
 		if(returnValue == JFileChooser.APPROVE_OPTION) {
 			path = chooser.getSelectedFile().getPath();
 		} else{
-			JOptionPane.showMessageDialog(null, "Vorgang vom Benutzer abgebrochen. Die Anwendung wird beendet.", "Abgebrochen", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "The operation was canceled by the user. Terminating...", "Cancelled", JOptionPane.ERROR_MESSAGE);
 			System.exit(0);
 		}
 		
@@ -92,7 +91,7 @@ public class Main extends JFrame {
 		if(returnValue == JFileChooser.APPROVE_OPTION) {
 			outputPath = chooser.getSelectedFile().getPath();
 		} else {
-			JOptionPane.showMessageDialog(null, "Vorgang vom Benutzer abgebrochen. Die Anwendung wird beendet.", "Abgebrochen", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "The operation was canceled by the user. Terminating...", "Abgebrochen", JOptionPane.ERROR_MESSAGE);
 			System.exit(0);
 		}
 		
@@ -170,7 +169,7 @@ public class Main extends JFrame {
 		 
 		 System.out.println(imageWidth + " " + imageHeight + " " + counter);
 		 
-		 JOptionPane.showMessageDialog(null, "Fertig! Das Bild wurde konvertiert!", "Fertig!", JOptionPane.INFORMATION_MESSAGE);
+		 JOptionPane.showMessageDialog(null, "The image was converted!", "Done!", JOptionPane.INFORMATION_MESSAGE);
 		 System.exit(0);
 	}
 		
