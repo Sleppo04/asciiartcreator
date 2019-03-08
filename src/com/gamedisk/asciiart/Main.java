@@ -62,7 +62,11 @@ public class Main extends JFrame {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-						
+								
+		Object[] options = {"OK"};
+		
+		JOptionPane.showOptionDialog(null, "Hello!\nThis is an Ascii-Art creator.\nSelect yout image, click \"Open\" and then select the output-text-file.\nit is very easy!\nTry it!", "Welcome", JOptionPane.PLAIN_MESSAGE, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
+		
 		JFileChooser chooser = new JFileChooser();
 		FileNameExtensionFilter filter = new FileNameExtensionFilter("Images (.jpg, .png, .gif, .bmp, .jpeg)", "jpg", "png", "gif", "bmp", "jpeg");
 		chooser.addChoosableFileFilter(filter);
