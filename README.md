@@ -1,2 +1,2 @@
 # asciiartcreator
-This is a ASCII-art creator written in Java
+This is an ASCII-art creator written in Java
