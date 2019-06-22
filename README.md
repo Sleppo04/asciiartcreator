@@ -6,3 +6,6 @@ There are runnable JAR-files, but I cannot guarantee that they are up-to-date wi
 so it is recommended to compile the sourcecode yourself.
 
 JAR-file Download: https://drive.google.com/file/d/1gjlTRdLl6d9OXGP9nG-yobkDhOUeWuxl/view?usp=sharing
+
+Also: no color as of now.
+I'm working on ANSI-Color-support.
