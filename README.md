@@ -1,5 +1,6 @@
 # asciiartcreator
-![GitHub All Releases](https://img.shields.io/github/downloads/sleppo04/asciiartcreator/total)
+![GitHub All Releases](https://img.shields.io/github/downloads/sleppo04/asciiartcreator/total) 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 
 This is an ASCII-art creator written in Java.
 It takes Images and outputs text-files.
