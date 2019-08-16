@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<project name="asciiartcreator" default="build" basedir=".">
-  <target name="init">
-  <mkdir dir="${build}" />
-</target>
-  <target name="build">
-    <javac srcdir="." />
-  </target>
-</project>
